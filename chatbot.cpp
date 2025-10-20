@@ -35,7 +35,7 @@ int main() {
     _setmode(_fileno(stdin), _O_U8TEXT);
 
     std::wstring user_input;
-    std::string api_key = "OgH0dTv5ZqfThyHQ3R5z6QbwkFrqncJ7";
+    std::string api_key = "";
 
     std::wcout << L"chatbot\nenter 'exit' to leave\n";
 
@@ -87,3 +87,4 @@ int main() {
 
     return 0;
 }
+
